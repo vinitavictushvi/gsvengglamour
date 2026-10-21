@@ -1,231 +1,487 @@
-# GSV — Beauty Beyond Expectations ✨
+# GSV® — Beauty Beyond Expectations
+
+<p align="center">
+  <img src="assets/images/gsv-banner.png" alt="GSV — Beauty Beyond Expectations luxury beauty website banner" width="100%" />
+</p>
 
 <p align="center">
   <strong>BEAUTY. STYLE. YOU.</strong>
+  <br />
+  An elevated digital experience for beauty, confidence and self-care.
 </p>
 
 <p align="center">
-  A premium digital experience for beauty, elegance and self-care.
+  <a href="https://github.com/YOUR-USERNAME/YOUR-REPOSITORY">
+    <img src="https://img.shields.io/badge/PROJECT-GSV-F28B50?style=flat-square" alt="GSV Project" />
+  </a>
+  <img src="https://img.shields.io/badge/HTML5-SEMANTIC-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-RESPONSIVE-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-VANILLA-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla JavaScript" />
+  <img src="https://img.shields.io/badge/DEPENDENCIES-NONE-6C9A7F?style=flat-square" alt="No required dependencies" />
+  <img src="https://img.shields.io/badge/DEPLOYMENT-STATIC-343434?style=flat-square" alt="Static deployment" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Responsive-Design-F28B50?style=for-the-badge" alt="Responsive Design" />
-  <img src="https://img.shields.io/badge/Frontend-Only-343434?style=for-the-badge" alt="Frontend Only" />
+  <a href="#-overview">Overview</a> ·
+  <a href="#-experience">Experience</a> ·
+  <a href="#-architecture">Architecture</a> ·
+  <a href="#-getting-started">Get Started</a> ·
+  <a href="#-customization">Customization</a>
 </p>
 
 ---
 
-## Overview
+## 01 — The Vision
 
-**GSV — Beauty Beyond Expectations** is a luxury-inspired, multi-page beauty services website designed to deliver an elegant, intuitive and responsive online experience.
+**Beauty deserves a digital experience as thoughtful as the service itself.**
 
-Created with HTML5, CSS3 and Vanilla JavaScript, the project combines refined editorial aesthetics with practical features that help users explore beauty services, discover different looks, review pricing information and prepare appointment requests.
+GSV — Beauty Beyond Expectations is a luxury-inspired, multi-page website concept for a modern women's beauty and personal-care brand.
 
-The visual identity is built around pearl white, warm ivory, shimmer silver and soft peach-orange accents, creating a sophisticated and consistent brand experience.
+Designed around a refined editorial aesthetic, GSV brings together beauty service discovery, visual inspiration, transparent pricing, appointment-request preparation and customer contact into one cohesive experience.
 
-## ✨ Highlights
+The result is a frontend project that balances **visual sophistication, practical functionality and maintainable code** without relying on a JavaScript framework or backend infrastructure.
 
-| Feature | Description |
+> A quieter aesthetic. A more thoughtful experience. A brand that puts you first.
+
+---
+
+## 02 — The Experience
+
+GSV is organised into six dedicated pages, each serving a distinct purpose within the customer journey.
+
+| Page | Experience | Purpose |
+|---|---|---|
+| `Home` | Brand introduction | Discover the GSV identity and featured experiences |
+| `Services` | Service discovery | Search, filter and explore beauty services |
+| `Gallery` | Visual inspiration | Browse beauty looks and explore images |
+| `Prices` | Pricing transparency | Review service rates or request a quote |
+| `Book Appointment` | Request preparation | Select preferences and prepare an appointment request |
+| `Contact` | Customer communication | Explore contact options and frequently asked questions |
+
+### The customer journey
+
+`DISCOVER` → `EXPLORE` → `GET INSPIRED` → `REVIEW PRICES` → `PREPARE REQUEST`
+
+Every page follows the same visual language, navigation system and brand identity.
+
+---
+
+## 03 — Signature Features
+
+### ✦ Luxury Interface Design
+
+- Pearl-white and warm-ivory foundations.
+- Soft peach and restrained glossy-orange accents.
+- Elegant serif headlines paired with readable sans-serif typography.
+- Delicate silver separators, fine borders and understated shadows.
+- Editorial image treatments, carefully balanced spacing and refined transitions.
+
+### ✦ Intelligent Service Discovery
+
+- Organised beauty service catalogue.
+- Category-based filtering.
+- Search across service names and categories.
+- Clear empty states and filter-reset controls.
+- Direct navigation from a selected service to the booking form.
+
+### ✦ Editorial Beauty Gallery
+
+- Curated category-based image layouts.
+- Responsive image compositions.
+- Hover effects and interactive image lightbox.
+- Previous and next image navigation.
+- Keyboard support and Escape-key dismissal.
+- Service-aware booking links.
+
+### ✦ Transparent Pricing Experience
+
+- Structured service price lists.
+- Editable pricing data.
+- Category filters.
+- Service-specific booking links.
+- `Price on request` placeholders where official rates are unavailable.
+- Clear notes for policies and potential additional charges.
+
+### ✦ Appointment Request Interface
+
+- Service and optional package selection.
+- Preferred date and time.
+- Salon or home-visit preference.
+- Customer information and booking summary.
+- Indian mobile-number validation.
+- Past-date prevention.
+- Demonstration reference number.
+- Optional browser-local demo history.
+- Configurable WhatsApp message preparation.
+
+### ✦ Contact & Support
+
+- Editable business contact information.
+- Contact-form demonstration.
+- WhatsApp contact option when configured.
+- Accessible FAQ accordions.
+- Clear messaging when a real communication endpoint is unavailable.
+
+### ✦ Responsive & Accessible Foundations
+
+- Semantic HTML landmarks.
+- Keyboard-accessible controls.
+- Visible focus states.
+- Form labels and validation feedback.
+- Reduced-motion support.
+- Lazy-loaded below-the-fold images.
+- Responsive layouts designed for mobile, tablet and desktop.
+
+*Feature availability depends on the implementation in the repository; verify the corresponding interactions before describing them as production-tested.*
+
+---
+
+## 04 — Visual Identity
+
+The GSV design system is inspired by premium beauty editorials: clean compositions, subtle reflective details and warm, understated accents.
+
+### Colour palette
+
+| Token | Hex | Application |
+|---|---|---|
+| Pearl White | `#FFFEFC` | Main backgrounds |
+| Warm Ivory | `#F7F4F0` | Soft section backgrounds |
+| Shimmer Silver | `#E5E7EB` | Borders and separators |
+| Soft Peach | `#F7C7A5` | Decorative highlights |
+| Glossy Orange | `#F28B50` | Primary actions and accents |
+| Soft Orange | `#E9A477` | Secondary highlights |
+| Primary Text | `#343434` | Headings and prominent text |
+| Body Text | `#666666` | Supporting content |
+
+### Typography
+
+- **Editorial headings:** Playfair Display or Cormorant Garamond.
+- **Body typography:** Inter or Manrope.
+- **Brand treatment:** Refined serif wordmark with generous spacing.
+
+### Design principles
+
+`CLARITY` · `WHITESPACE` · `CONSISTENCY` · `ACCESSIBILITY` · `RESTRAINT`
+
+The visual direction prioritises a recognisable brand experience over excessive gradients, decorative clutter or unnecessary animation.
+
+---
+
+## 05 — Technology & Engineering
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" alt="HTML, CSS, JavaScript, Git, GitHub and Visual Studio Code" />
+</p>
+
+| Technology | Implementation |
 |---|---|
-| Luxury Interface | Minimal, editorial-inspired beauty brand design |
-| Six Website Pages | Home, Services, Gallery, Prices, Booking and Contact |
-| Service Discovery | Searchable service catalogue with category filters |
-| Beauty Gallery | Image categories, interactive lightbox and look-based navigation |
-| Price List | Organised pricing information with editable placeholders |
-| Appointment Experience | Service selection, customer details and booking summary |
-| Form Validation | Required fields, date validation and Indian mobile number checks |
-| WhatsApp Ready | Configurable WhatsApp booking and contact links |
-| Responsive Layout | Designed for mobile, tablet and desktop |
-| Accessible Interactions | Semantic markup, keyboard support and visible focus states |
-
-## 🖥️ Website Pages
-
-**01 — Home**  
-An editorial landing page introducing the GSV brand, featured services, benefits, gallery preview and beauty packages.
-
-**02 — Services**  
-A searchable catalogue of makeup, mehendi, hair styling, nails, skincare, waxing, threading, bridal services and saree draping.
-
-**03 — Gallery**  
-A visual portfolio layout featuring category filters, image previews and interactive lightbox navigation.
-
-**04 — Prices**  
-A clean, easy-to-scan service price list with editable rates, package information and booking links.
-
-**05 — Book Appointment**  
-A guided appointment-request interface with service selection, preferred date and time, customer details and a request summary.
-
-**06 — Contact**  
-A dedicated contact interface with configurable business details, a contact-form demonstration and frequently asked questions.
-
-## 🛠️ Technology Stack
-
-| Technology | Role |
-|---|---|
-| HTML5 | Semantic structure and content |
-| CSS3 | Visual design, responsive layouts and transitions |
-| Vanilla JavaScript | Search, filters, gallery, form validation and interactions |
+| HTML5 | Semantic page structure and accessible content |
+| CSS3 | Design tokens, layouts, responsive styling and motion |
+| Vanilla JavaScript | Navigation, search, filters, lightbox and forms |
 | LocalStorage | Optional browser-local demonstration data |
-| Google Fonts | Enhanced typography with system-font fallbacks |
+| Git & GitHub | Version control and source hosting |
+| Static Hosting | Optional deployment without server-side code |
 
-Built without React, Vue, Angular, Node.js, npm, build tools, backend APIs or a database.
+**Architecture decisions**
 
-## 🎨 Design System
+- No React, Next.js, Vue or Angular.
+- No Node.js, npm or build pipeline.
+- No required backend or database.
+- No authentication or payment gateway.
+- Shared CSS and JavaScript across the six pages.
+- Page-specific initialisation guarded by element availability.
+- Business data and configuration organised for straightforward editing.
 
-The GSV visual language prioritises elegance, whitespace, subtle details and readability.
+---
 
-| Design Token | Colour |
-|---|---|
-| Pearl White | `#FFFEFC` |
-| Warm Ivory | `#F7F4F0` |
-| Shimmer Silver | `#E5E7EB` |
-| Soft Peach | `#F7C7A5` |
-| Glossy Orange | `#F28B50` |
-| Soft Orange | `#E9A477` |
-| Primary Text | `#343434` |
-| Body Text | `#666666` |
-
-**Typography:** Playfair Display or Cormorant Garamond for headings, paired with Inter or Manrope for body text.
-
-**Design principles:** Editorial layouts, balanced whitespace, fine borders, elegant image crops, restrained animations and mobile-first usability.
-
-## 📁 Project Structure
+## 06 — Project Architecture
 
 ```text
 GSV/
+│
 ├── index.html
 ├── services.html
 ├── gallery.html
 ├── prices.html
 ├── booking.html
 ├── contact.html
+│
 ├── css/
 │   └── style.css
+│
 ├── js/
 │   └── script.js
+│
 ├── assets/
 │   └── images/
 │       └── README.md
+│
 └── README.md
 ```
 
-## 🚀 Getting Started
+### Separation of responsibilities
 
-GSV is designed to run as a static website without installation or compilation.
+**HTML — Structure**
 
-### Run Locally
+Defines page content, navigation, forms, accessible labels and semantic sections.
 
-1. Clone or download this repository.
+**CSS — Presentation**
+
+Controls brand colours, typography, spacing, reusable components, responsive behaviour and motion.
+
+**JavaScript — Interaction**
+
+Manages navigation states, service discovery, gallery interactions, booking summaries, validation and contact-form behaviour.
+
+**Assets — Visual identity**
+
+Documents image sources and provides a place for original GSV photography and brand assets.
+
+---
+
+## 07 — Getting Started
+
+GSV is designed to run as a static website without installing dependencies or compiling source code.
+
+### Option A — Run directly
+
+1. Download or clone the repository.
 2. Open the project folder.
 3. Double-click `index.html`.
-4. Navigate through the website using the main menu.
+4. Explore the website through its navigation.
 
-Alternatively, open the folder in Visual Studio Code and use a local preview extension.
+### Option B — Clone with Git
 
-### Clone the Repository
-
-Replace the example URL below with your actual GitHub repository URL.
+Replace the example URL with the actual repository URL.
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-```
-
-```bash
 cd YOUR-REPOSITORY
 ```
 
-Then open `index.html` in your browser.
+Open `index.html` in a modern browser.
 
-## ⚙️ Configuration
+### Option C — Use Visual Studio Code
 
-Before using the website for a real business, update the following information.
+1. Open the project folder in VS Code.
+2. Open `index.html`.
+3. Preview the website in your browser.
+4. Edit `css/style.css` and `js/script.js` as required.
 
-- **Services:** Edit service names, categories, descriptions, prices and durations in the JavaScript configuration.
-- **Pricing:** Replace placeholder rates with actual business-approved prices.
-- **Images:** Replace demonstration imagery with original GSV photography or appropriately licensed images.
-- **WhatsApp:** Configure the official business number in the JavaScript settings.
-- **Contact Details:** Add the actual phone number, email address, Instagram profile, location and operating hours where applicable.
+A local preview extension is optional, not a project dependency.
 
-Keep business details centralised in the configuration where practical, so future changes remain easy to maintain.
+---
 
-## 📅 Appointment Request Flow
+## 08 — Configuration & Customization
 
-The booking interface is a frontend demonstration designed to illustrate the appointment-request experience.
+Before presenting GSV as a real business website, replace all demonstration content with verified information.
 
-1. Select a service or package.
-2. Choose a preferred date, time and service location.
-3. Enter the requested customer details.
-4. Review the booking summary.
-5. Prepare the request and receive a demonstration reference number.
-6. Use the configured WhatsApp option to contact the business when available.
+### Services & Categories
 
-**Important:** Submitting the form does not confirm an appointment or send the request to GSV. Optional demo records may be saved in the current browser using LocalStorage. They are not shared with other devices or stored in a business database.
+Edit the service data in `js/script.js`.
 
-No payment processing, live availability, authentication, SMS delivery or automatic email delivery is implemented.
+Update:
 
-## 🔐 Privacy & Security
+- Service names and descriptions.
+- Category assignments.
+- Price values or request-based pricing.
+- Estimated durations.
+- Related images and booking links.
 
-- No backend or shared customer database is included.
-- Optional demo booking records remain in the current browser.
-- No real appointment confirmation is generated.
-- WhatsApp messages are only delivered if the user sends them through a correctly configured contact link.
-- Avoid entering sensitive personal information into the demonstration form.
+Keep the service data centralised wherever possible so the catalogue, pricing page and booking interface remain consistent.
 
-A real production booking system should use an appropriate backend or trusted booking service and publish an accurate privacy policy.
+### Brand & Styling
 
-## 🌐 Deployment
+Edit the CSS custom properties in `css/style.css`.
 
-The website can be deployed to any suitable static hosting provider.
+```css
+:root {
+  --color-pearl: #FFFEFC;
+  --color-ivory: #F7F4F0;
+  --color-silver: #E5E7EB;
+  --color-peach: #F7C7A5;
+  --color-orange: #F28B50;
+  --color-orange-soft: #E9A477;
+  --color-text: #343434;
+  --color-muted: #666666;
+}
+```
 
-For GitHub Pages:
+Adjust the design tokens rather than duplicating colour values across multiple components.
 
-1. Push the project files to GitHub.
-2. Open the repository's **Settings → Pages**.
-3. Select the appropriate deployment source and branch.
-4. Choose the root directory if the HTML files are stored there.
-5. Save the settings and open the published website URL.
+### Photography
 
-Before publishing, verify all navigation links, image paths, contact details, responsive layouts and form behaviour.
+Replace demonstration imagery with original GSV photographs or appropriately licensed images.
 
-## 🧪 Quality Checklist
+For each image, provide:
 
-- [ ] All six HTML pages are present.
-- [ ] Navigation and active-page states work correctly.
-- [ ] Service search and category filters work.
-- [ ] Gallery filtering and lightbox controls work.
-- [ ] Booking links preselect the appropriate service.
-- [ ] Required fields and date validation work.
-- [ ] Booking messages clearly explain the frontend-only limitations.
-- [ ] Contact links use real configured business details.
-- [ ] Mobile layouts have no horizontal overflow.
-- [ ] Images have suitable alt text and graceful fallbacks.
-- [ ] No placeholder prices or contact details are presented as genuine.
+- A descriptive alt attribute.
+- An appropriate crop and aspect ratio.
+- A stable local or remote image path.
+- A graceful fallback for failed image loads.
 
-Mark these items complete only after testing the corresponding functionality.
+Image-source and replacement notes belong in `assets/images/README.md`.
 
-## 🗺️ Future Improvements
+### Business Information
 
-- Replace demonstration images with original brand photography.
-- Add verified prices, service durations and package details.
-- Configure official business and social media links.
-- Complete desktop and mobile browser testing.
-- Publish the static website using GitHub Pages.
-- Integrate a real booking solution if the business requires shared appointment management.
+Configure the genuine:
 
-## 📄 License
+- WhatsApp business number.
+- Phone number and email.
+- Instagram profile.
+- Business address, if applicable.
+- Operating hours.
+- Verified service prices and policies.
 
-No open-source license is specified by default. Add an appropriate license file before granting permissions for reuse, modification or redistribution.
+Do not publish example values as actual business details.
+
+---
+
+## 09 — Appointment Requests & Data Boundaries
+
+The appointment workflow is a **frontend-only demonstration**, not a live booking platform.
+
+### What it can demonstrate
+
+1. Selecting a service and package.
+2. Choosing a preferred date, time and location.
+3. Entering customer details.
+4. Reviewing a booking summary.
+5. Generating a local demonstration reference.
+6. Preparing a WhatsApp message when a real number is configured.
+
+### What it does not provide
+
+- A shared booking database.
+- Real-time appointment availability.
+- Automatic business notifications.
+- Automatic WhatsApp message delivery.
+- SMS or email delivery.
+- Payment processing.
+- User authentication.
+- Guaranteed appointment confirmation.
+
+Optional LocalStorage data remains in the current browser profile and is not automatically shared with GSV or other devices.
+
+**A prepared request is not a confirmed appointment.** The customer must use a configured communication channel to send the request to the business.
+
+For a production deployment, integrate an appropriate booking service or backend and implement suitable privacy and data-protection measures.
+
+---
+
+## 10 — Privacy & Responsible Use
+
+GSV does not include a backend or shared customer database.
+
+- Demo records may remain in browser storage until cleared.
+- Shared-device users may be able to access locally stored demonstration data.
+- Sensitive personal information should not be entered into a demonstration form.
+- Real contact details should only be published with appropriate authorisation.
+- Privacy, cancellation and terms documents should reflect the actual business policies.
+
+The website's frontend validation improves usability but is not a substitute for server-side validation in a production booking system.
+
+---
+
+## 11 — Deployment
+
+GSV can be published through GitHub Pages or another static hosting provider.
+
+### GitHub Pages
+
+1. Push the website files to GitHub.
+2. Open the repository.
+3. Navigate to **Settings → Pages**.
+4. Select the appropriate deployment source and branch.
+5. Select the root folder if the HTML pages are stored there.
+6. Save and open the published URL.
+
+### Before publishing
+
+- Verify all six pages.
+- Check every navigation and booking link.
+- Confirm all images load correctly.
+- Configure actual business details.
+- Test forms and error states.
+- Review mobile and tablet layouts.
+- Check browser-console errors.
+- Ensure no demonstration prices or testimonials are presented as genuine.
+- Add a privacy policy and applicable business policies.
+
+A static deployment does not turn the demonstration booking flow into a live booking service.
+
+---
+
+## 12 — Quality Assurance
+
+Use this checklist when testing the actual implementation.
+
+- [ ] All six HTML pages exist.
+- [ ] All pages share a consistent navbar and footer.
+- [ ] Active navigation and mobile-menu states work.
+- [ ] Service category filters and search work.
+- [ ] Empty states and filter resets work.
+- [ ] Gallery filtering and lightbox navigation work.
+- [ ] Escape and click-outside lightbox dismissal work.
+- [ ] Service links preselect the intended booking option.
+- [ ] Booking summaries update with form selections.
+- [ ] Invalid and past dates are rejected.
+- [ ] Indian mobile-number validation behaves as intended.
+- [ ] Duplicate submissions are prevented during processing.
+- [ ] Demo confirmations explain their limitations.
+- [ ] WhatsApp links work with a configured number.
+- [ ] Missing contact configuration is handled clearly.
+- [ ] No broken local asset paths remain.
+- [ ] Layouts work at mobile, tablet and desktop widths.
+- [ ] No unintended horizontal overflow is present.
+- [ ] Keyboard focus and reduced-motion preferences are respected.
+
+Only mark a test complete after verifying it in the running website.
+
+---
+
+## 13 — Roadmap
+
+- [ ] Replace demonstration imagery with original GSV photography.
+- [ ] Finalise the service catalogue and verified pricing.
+- [ ] Configure official business contact information.
+- [ ] Refine responsive behaviour using real-device testing.
+- [ ] Complete accessibility and browser testing.
+- [ ] Publish the static website.
+- [ ] Consider a trusted booking integration if shared appointment management is needed.
+
+---
+
+## 14 — Project Goals
+
+GSV is designed to demonstrate practical frontend engineering through a polished beauty-brand experience.
+
+The project brings together:
+
+- Responsive web design.
+- Consistent visual systems.
+- Semantic HTML and accessible interactions.
+- Vanilla JavaScript application logic.
+- Searchable and filterable content.
+- Client-side form validation.
+- Honest frontend-only data handling.
+- Maintainable project structure.
+- Static website deployment.
+
+The emphasis is on creating a cohesive experience rather than simply assembling individual pages.
+
+---
+
+## 15 — License
+
+No open-source license is included by default. Add an appropriate license file before authorising redistribution, modification or reuse of the project.
 
 ---
 
 <p align="center">
-  <strong>GSV — Beauty Beyond Expectations</strong><br/>
+  <strong>GSV — BEAUTY BEYOND EXPECTATIONS</strong>
+  <br />
   <em>Beauty. Style. You.</em>
-</p>
-
-<p align="center">
-  Designed for elegance. Built for the modern beauty experience.
+  <br /><br />
+  Crafted with intention. Designed for elegance.
 </p>
