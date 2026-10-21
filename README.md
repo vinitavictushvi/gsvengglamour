@@ -486,4 +486,4 @@ No open-source license is included by default. Add an appropriate license file b
   <br /><br />
   Crafted with intention. Designed for elegance.
 </p>
->>>>>>> e1b074a5a4295604786610b0814c9cd78079462d
+
