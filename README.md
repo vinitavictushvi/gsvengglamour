@@ -12,7 +12,7 @@
 # GSV® — Beauty Beyond Expectations
 
 <p align="center">
-  <img src="assets/images/gsv-banner.png" alt="GSV — Beauty Beyond Expectations luxury beauty website banner" width="100%" />
+  <img src="assets\images\Images\banner.png" alt="GSV — Beauty Beyond Expectations luxury beauty website banner" width="100%" />
 </p>
 
 <p align="center">
